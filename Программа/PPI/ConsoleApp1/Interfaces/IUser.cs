@@ -2,7 +2,7 @@
 
 namespace ConsoleApp1.Interfaces
 {
-    internal interface IUser
+    public interface IUser
     {
         Guid Id { get; }    
         string Name { get; set; }

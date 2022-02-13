@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ConsoleApp1.Interfaces;
 
 namespace ConsoleApp1.Bl.Interfaces
 {
-    internal interface IIdentityService
+    public interface IIdentityService
     {
-
+        bool ResgisterNewUser(IUser user);
+        bool CheckIsUserExist(Guid userID);
+        bool AuthorizeUser(string userName, string password);
     }
 }
