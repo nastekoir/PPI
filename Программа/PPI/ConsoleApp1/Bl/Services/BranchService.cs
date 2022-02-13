@@ -21,7 +21,7 @@ namespace ConsoleApp1.Services
 
         public void RenameBranch(Guid branchId, string newName)
         {
-            throw new NotImplementedException();
+            //UPDATE BranchTable SET Name=newName WHERE Id=branchId
         }
     }
 }
