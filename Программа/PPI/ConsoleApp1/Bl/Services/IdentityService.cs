@@ -12,7 +12,7 @@ namespace ConsoleApp1.Services
     {
         public bool AuthorizeUser(string userName, string password)
         {
-            return true
+            return true;
         }
 
         public bool CheckIsUserExist(Guid userID)
@@ -22,7 +22,7 @@ namespace ConsoleApp1.Services
 
         public bool ResgisterNewUser(IUser user)
         {
-            throw new NotImplementedException();
+            return true;
         }
     }
 }
