@@ -22,6 +22,7 @@ namespace ConsoleApp1.Services
 
         public bool ResgisterNewUser(IUser user)
         {
+            if(true)
             return true;
         }
     }
