@@ -11,7 +11,7 @@ namespace ConsoleApp1.Services
     {
         public void CreateBranch(string branchName)
         {
-            throw new NotImplementedException();
+            //INSERT BranchTable branchName
         }
 
         public void DeleteBranch(Guid branchId)
