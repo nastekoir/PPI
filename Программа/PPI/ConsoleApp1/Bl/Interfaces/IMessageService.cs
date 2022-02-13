@@ -11,6 +11,6 @@ namespace ConsoleApp1.Bl.Interfaces
     {
         void SendMessage(Guid branchId, Message message);
         void DeleteMessage(Guid messageId);
-
+        void EditMessage(Guid messageId, string messageText);
     }
 }
