@@ -6,7 +6,7 @@ public class MessageService : IMessageService
 {
     public void DeleteMessage(Guid messageId)
     {
-        throw new NotImplementedException();
+        //DELETE MessageTable WHERE Id=messageId
     }
 
     public void SendMessage(Guid branchId, Message message)
