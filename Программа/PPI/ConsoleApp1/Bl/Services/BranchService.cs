@@ -16,7 +16,7 @@ namespace ConsoleApp1.Services
 
         public void DeleteBranch(Guid branchId)
         {
-            throw new NotImplementedException();
+            //DELETE BranchTable WHERE Id=branchId
         }
     }
 }
