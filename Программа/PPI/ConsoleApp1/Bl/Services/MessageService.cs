@@ -11,7 +11,7 @@ public class MessageService : IMessageService
 
     public void SendMessage(Guid branchId, Message message)
     {
-        throw new NotImplementedException();
+        //INSERT MessageTable message,branchId
     }
 }
 
