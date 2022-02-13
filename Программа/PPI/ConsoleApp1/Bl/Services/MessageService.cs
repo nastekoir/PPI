@@ -11,7 +11,7 @@ public class MessageService : IMessageService
 
     public void SendMessage(Guid branchId, Message message)
     {
-        //INSERT MessageTable message,branchId
+        //INSERT MessageTable message.MessageText,message.UserId,message.CreatedDate,branchId
     }
 }
 
