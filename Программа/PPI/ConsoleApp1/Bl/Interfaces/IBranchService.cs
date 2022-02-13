@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.Bl.Interfaces
 {
-    internal interface IBranchService
+    public interface IBranchService
     {
+        void CreateBranch(string branchName);
+        void DeleteBranch(Guid branchId);
+
+        void RenameBranch(Guid branchId, string newName);
     }
 }
