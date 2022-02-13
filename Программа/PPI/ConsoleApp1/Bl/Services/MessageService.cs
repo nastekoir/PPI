@@ -11,7 +11,7 @@ public class MessageService : IMessageService
 
     public void EditMessage(Guid messageId, string messageText)
     {
-        //UPDATE MessageTeble SET MessageText=messageText WHERE Id=messageId
+        //UPDATE MessageTeble SET MessageText=messageText WHERE Id=messageI
     }
 
     public void SendMessage(Guid branchId, Message message)
