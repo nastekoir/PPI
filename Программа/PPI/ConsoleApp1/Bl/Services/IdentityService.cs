@@ -12,12 +12,12 @@ namespace ConsoleApp1.Services
     {
         public bool AuthorizeUser(string userName, string password)
         {
-            //return true
+            return true
         }
 
         public bool CheckIsUserExist(Guid userID)
         {
-            throw new NotImplementedException();
+            return true;
         }
 
         public bool ResgisterNewUser(IUser user)
