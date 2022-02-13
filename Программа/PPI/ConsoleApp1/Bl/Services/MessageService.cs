@@ -9,9 +9,15 @@ public class MessageService : IMessageService
         //DELETE MessageTable WHERE Id=messageId
     }
 
+    public void EditMessage(Guid messageId, string messageText)
+    {
+        //UPDATE MessageTeble SET MessageText=messageText WHERE Id=messageId
+    }
+
     public void SendMessage(Guid branchId, Message message)
     {
         //INSERT MessageTable message.MessageText,message.UserId,message.CreatedDate,branchId
     }
+
 }
 
