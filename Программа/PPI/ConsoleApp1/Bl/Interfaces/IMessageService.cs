@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.Bl.Interfaces
 {
+    /// <summary>
+    ///  Интерфейс сервиса для работы с сообщениями
+    /// </summary>
     public interface IMessageService
     {
         /// <summary>
