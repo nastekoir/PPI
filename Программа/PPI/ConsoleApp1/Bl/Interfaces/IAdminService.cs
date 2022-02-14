@@ -9,8 +9,19 @@ namespace ConsoleApp1.Bl.Interfaces
 {
     internal interface IAdminService
     {
+        /// <summary>
+        ///  Удаление пользователя по Id
+        /// </summary>
         bool DeleteUser(Guid userId);
+
+        /// <summary>
+        ///  Назачение пользователю прав модератора
+        /// </summary>
         bool AppointModerator(Guid userId);
+
+        /// <summary>
+        ///  Назначение пользователю определённых прав
+        /// </summary>
         void SetRights(Guid userId, UserRightsEnum[] rights);
     }
 }

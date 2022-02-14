@@ -9,8 +9,19 @@ namespace ConsoleApp1.Bl.Interfaces
 {
     public interface IMessageService
     {
+        /// <summary>
+        ///  Функция отправки сообщения в ветку
+        /// </summary>
         void SendMessage(Guid branchId, Message message);
+
+        /// <summary>
+        ///  Функция удаления сообщения по Id
+        /// </summary>
         void DeleteMessage(Guid messageId);
+
+        /// <summary>
+        ///  Функция редактирования сообщения
+        /// </summary>
         void EditMessage(Guid messageId, string messageText);
     }
 }

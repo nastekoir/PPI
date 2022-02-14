@@ -8,9 +8,19 @@ namespace ConsoleApp1.Bl.Interfaces
 {
     public interface IBranchService
     {
+        /// <summary>
+        ///  Создать ветку
+        /// </summary>
         void CreateBranch(string branchName);
+
+        /// <summary>
+        ///  Удалить ветку
+        /// </summary>
         void DeleteBranch(Guid branchId);
 
+        /// <summary>
+        ///  Переименовать ветку
+        /// </summary>
         void RenameBranch(Guid branchId, string newName);
     }
 }
