@@ -16,7 +16,19 @@ namespace ConsoleApp1.Models
         /// <summary>
         ///  Имя
         /// </summary>
-        public string Name { get; set; }
+        public string FirstName { get; set; }
+		
+		/// <summary>
+        ///  Фамилия
+        /// </summary>
+        public string LastName { get; set; }
+
+
+		/// <summary>
+        ///  Отчество
+        /// </summary>
+        public string MiddleName { get; set; }
+
 
         /// <summary>
         ///  Логин
