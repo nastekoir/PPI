@@ -26,5 +26,10 @@ namespace ConsoleApp1.Bl.Interfaces
         ///  Назначение пользователю определённых прав
         /// </summary>
         void SetRights(Guid userId, UserRightsEnum[] rights);
+		
+		/// <summary>
+        ///  Загрушить пользователя
+        /// </summary>
+		void MuteUser(Guid userId)
     }
 }
