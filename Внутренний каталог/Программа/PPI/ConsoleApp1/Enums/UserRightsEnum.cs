@@ -43,6 +43,12 @@
         /// <summary>
         ///  Чтение сообщений
         /// </summary>
-        ReadMessages
+        ReadMessages,
+		
+		/// <summary>
+        ///  Запретить пользователю писать сообщения
+        /// </summary>
+		MuteUser
+
     }
 }

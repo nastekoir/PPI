@@ -8,6 +8,6 @@ namespace ConsoleApp1.Bl.Interfaces
 {
     internal interface IIdentityService
     {
-
+		void Logout()
     }
 }

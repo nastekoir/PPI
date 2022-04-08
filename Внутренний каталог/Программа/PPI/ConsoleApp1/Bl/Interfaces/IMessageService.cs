@@ -26,5 +26,7 @@ namespace ConsoleApp1.Bl.Interfaces
         ///  Функция редактирования сообщения
         /// </summary>
         void EditMessage(Guid messageId, string messageText);
+		
+		void SetRating(bool rating)
     }
 }

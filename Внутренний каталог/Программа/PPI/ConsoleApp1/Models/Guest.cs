@@ -8,6 +8,11 @@ namespace ConsoleApp1.Models
     /// </summary>
     public class Guest
     {
+		
+		/// <summary>
+        ///  Идентификационный номер
+        /// </summary>
+        public Guid Id { get; }
         /// <summary>
         ///  Имя
         /// </summary>
